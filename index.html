@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			.nav{
+				text-align: center;
+			}
+			.nav img{
+				width: 126px;
+				height: 206px;
+			}
+		</style>
+		<script>
+			function qwe(){
+				alert("Love 吗？ 烂龙");
+			}
+			function qwefouse(){
+				var a=document.getElementById("demo");
+				alert("你写了什么？")
+			}
+		</script>
+	</head>
+	<body onload="qwe()">
+		<div class="nav">
+			<img src="图片.jpg" >
+			<br />
+			<input type="text" onchange="qwefouse()" id="demo" onblur="qwefouse()"/>
+		</div>
+	</body>
+</html>
